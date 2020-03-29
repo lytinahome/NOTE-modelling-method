@@ -1,6 +1,6 @@
 # Boosting
 
-Boosting can improve the performance classifier by combining a bunch of weak learner.
+Boosting can improve the performance classifier by combining a bunch of weak learners into a strong learner.
 
 ### Background:
 The concept of Boosting is related to the PAC learning theory. 
