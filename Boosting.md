@@ -25,15 +25,20 @@ AdaBoost can be used in the following scenarios:
 We focus on the two sets classifiction problems in this notes.
 
 The alorithm of adaboost:
-[algo](pic/adaboost_algo.png)
+
+![algo](pic/adaboost_algo.png)
+
 The property of adaboost:
-[prop](pic/adaboost_prop.png)
+
+![prop](pic/adaboost_prop.png)
+
 Another way to interpret Adaboost:
 using a general boosting framework:
 + Model: additive model
 + Loss function: exponential loss function
 + Learning algorithm: forward stagewise algorithm
-[algo2](pic/adaboost_algo2.png)
+
+![algo2](pic/adaboost_algo2.png)
 
 ### Boosting Tree
 Boosting Tree can be used in both classification and regression problems. It equals additive model + forward stagewise algorithm.
@@ -51,7 +56,8 @@ one can refer to Adaboost
 it is equivlent to fit the next model by using the residule of the last model.
 
 The algorithm of boosting tree.
-[algo](pic/regression_boost.png)
+
+![algo](pic/regression_boost.png)
 
 Some notes for this algotrithm:
 M is a parameter needs to set up beforehand: How many times do you want to update your learner. 
@@ -60,15 +66,17 @@ J is a parameter needs to set up beforehand: it depends on the depth of the tree
 ### Gradient Boosting
 
 The algorithm of gradient boost.
-[algo](pic/gradient_boost.png)
+
+![algo](pic/gradient_boost.png)
 
 Some notes for this algotrithm:
 M is a parameter needs to set up beforehand: How many times do you want to update your learner. 
 J is a parameter needs to set up beforehand: it depends on the depth of the tree in each step. 
 
 
-### Citation
+## Citation and Thanks to
 李航- 统计学习方法
+
 [StatQuest with Josh Starmer](https://www.youtube.com/watch?v=3CC4N4z3GJc)
 
 
