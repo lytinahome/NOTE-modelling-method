@@ -38,7 +38,7 @@ using a general boosting framework:
 + Loss function: exponential loss function
 + Learning algorithm: forward stagewise algorithm
 
-![algo2](pic/adaboost_algo2.png)
+![algo2](pic/adaboost_algo2.PNG)
 
 ### Boosting Tree
 Boosting Tree can be used in both classification and regression problems. It equals additive model + forward stagewise algorithm.
