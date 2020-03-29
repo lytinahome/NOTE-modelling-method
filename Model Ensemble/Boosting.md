@@ -24,15 +24,15 @@ AdaBoost can be used in the following scenarios:
 
 We focus on the two sets classifiction problems in this notes.
 
-The alorithm of adaboost:
+#### The alorithm of adaboost:
 
 ![algo](pic/adaboost_algo.png)
 
-The property of adaboost:
+#### The property of adaboost:
 
 ![prop](pic/adaboost_prop.png)
 
-Another way to interpret Adaboost:
+#### Another way to interpret Adaboost:
 using a general boosting framework:
 + Model: additive model
 + Loss function: exponential loss function
@@ -40,7 +40,7 @@ using a general boosting framework:
 
 ![algo2](pic/adaboost_algo2.PNG)
 
-### Boosting Tree
+## Boosting Tree
 Boosting Tree can be used in both classification and regression problems. It equals additive model + forward stagewise algorithm.
 
 | problem | base function | loss function |
@@ -49,29 +49,27 @@ Boosting Tree can be used in both classification and regression problems. It equ
 | regreesion | binary regression tree | square loss function - residule boosting |
 | all | all | other loss function - gradient boosting|
 
-#### classification problem
-one can refer to Adaboost
+For a classification problem, one can refer to Adaboost
 
-#### regression problem
-it is equivlent to fit the next model by using the residule of the last model.
+For a regression problem, using square loss function is equivlent to fit the next model by using the residule of the last model.
 
-The algorithm of boosting tree.
+#### The algorithm of boosting tree.
 
 ![algo](pic/regression_boost.png)
 
 Some notes for this algotrithm:
-M is a parameter needs to set up beforehand: How many times do you want to update your learner. 
-J is a parameter needs to set up beforehand: it depends on the depth of the tree in each step. 
++ M is a parameter needs to set up beforehand: How many times do you want to update your learner. 
++ J is a parameter needs to set up beforehand: it depends on the depth of the tree in each step. 
 
-### Gradient Boosting
+## Gradient Boosting
 
-The algorithm of gradient boost.
+#### The algorithm of gradient boost.
 
 ![algo](pic/gradient_boost.png)
 
 Some notes for this algotrithm:
-M is a parameter needs to set up beforehand: How many times do you want to update your learner. 
-J is a parameter needs to set up beforehand: it depends on the depth of the tree in each step. 
++ M is a parameter needs to set up beforehand: How many times do you want to update your learner. 
++ J is a parameter needs to set up beforehand: it depends on the depth of the tree in each step. 
 
 
 ## Citation and Thanks to
