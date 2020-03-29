@@ -75,7 +75,7 @@ J is a parameter needs to set up beforehand: it depends on the depth of the tree
 
 
 ## Citation and Thanks to
-李航- 统计学习方法
+李航- 统计学习方法2
 
 [StatQuest with Josh Starmer](https://www.youtube.com/watch?v=3CC4N4z3GJc)
 
