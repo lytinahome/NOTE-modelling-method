@@ -45,13 +45,15 @@ Boosting Tree can be used in both classification and regression problems. It equ
 
 | problem | base function | loss function |
 |--|--|--|
-| classification | binary classification tree | exponential loss function|
-| regreesion | binary regression tree | square loss function - residule boosting |
+| classification | binary classification tree (stump)| exponential loss function|
+| regreesion | binary regression tree (stump)| square loss function - residule boosting |
 | all | all | other loss function - gradient boosting|
 
 For a classification problem, one can refer to Adaboost
 
 For a regression problem, using square loss function is equivlent to fit the next model by using the residule of the last model.
+
+Note that in regression boosting tree, there is no need to change the data weight and model weight in each iteration. The only thing changed is to replace the y with the residule, which change the data weight and model weight in a implict way. 
 
 #### The algorithm of boosting tree.
 
