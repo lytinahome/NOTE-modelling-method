@@ -1,4 +1,4 @@
-
+# Error Analysis
 
 ## Cleaning up incorrectly labeled data
 
@@ -31,6 +31,8 @@ then it might not be the best use of your time.
 + first quickly set up a dev/test set and metric. deciding where to place your target. if you get it wrong, you can always move it later, but just set up a target somewhere. 
 + then build an initial machine learning system quickly. not overthink or not make your first system too complicated. Find the training set, train it and see. Start to see and understand how well you're doing against your dev/test set and your values and metric. 
 + use bias/variance analysis as well as error analysis, to prioritize the next steps.
+
+# Mismatched training and dev/test set
 
 ## Training and testing on different distributions
 Assume you have two datasource, source A: the dataset you care about, source B: the dataset you find can help training.
@@ -75,6 +77,8 @@ When you have insight into the nature of the dev set errors, or you have insight
 #### So, if your goal is to make the training data more similar to your dev set, what are some things you can do?
 One of the techniques you can use is artificial data synthesis. In speech recognition, I've seen artificial data synthesis significantly boost the performance of what were already very good speech recognition system. So, it can work very well. But, if you're using artificial data synthesis, just be cautious and bear in mind whether or not you might be accidentally simulating data only from a tiny subset of the space of all possible examples.
 
+# Learning from multiple tasks
+
 ## transfer learning
 in transfer learning, you have a sequential process where you learn from task A and then transfer that to task B.
 #### termnology:
@@ -95,7 +99,7 @@ in transfer learning, you have a sequential process where you learn from task A 
 
 the only times multi-task learning hurts performance compared to training separate neural networks is if your neural network isn't big enough. But if you can train a big enough neural network, then multi-task learning certainly should not or should very rarely hurt performance. And hopefully it will actually help performance compared to if you were training neural networks to do these different tasks in isolation. 
 
-## end-to-end learning
+# end-to-end deep learning
 example: speech recognition; face recognization; machine translation; 
 
 Whether to use end-to-end deep learning
