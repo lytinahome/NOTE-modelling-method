@@ -18,6 +18,9 @@ Two options: will use second one.
 1. accurate rate, 0-1 loss function, not differentiable.
 2. mislabled point to the hyperplane: L(w, b) = - sum(y_i * (w * x_i + b_i)) when x_i is miscalssified.
 
+#### the dual problem of the optimization of loss function L(w, b) = - sum(y_i * (w * x_i + b_i)).
+TBC.
+
 #### How to optimize the loss function
 
 use the stochastic gradient descent.
