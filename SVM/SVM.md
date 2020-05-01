@@ -75,9 +75,33 @@ sum positive[1 - y_i(w * x_i + b_i)] + \lambda||w||^2
 
 #### the relationship between hinge loss, 0-1 loss and perceptron loss.
 TBC
-
+Note the hinge loss is the upper bound of 0-1 loss
 
 
 #### Appendix: other version of SVM - soft margin
 TBC
+
+## Non-linear SVM with soft margin
+#### what is kernal trick?
+
+#### the definitatino of kernal function and mapping function
+Given a kernal function, the choice of mapping function is not unique.
+kernal function should a positive definitive function
+
+#### Common used kernal functions:
++ polynomial kernal function
++ Gaussian kernal function
++ string kernal function - can be used in sequence classification
+
+#### the definition of non-linear SVM with soft margin.
+TBC
+
+#### use dual program to solve the opitimization.
+TBC
+
+## SMO - sequential minimal optimization
+
+#### basic fact of SMO. 
++ SMO is to solve the quadratic programming question at large scale.
++ related to KKT condition. to do the optimization one variable by one variable.
 
