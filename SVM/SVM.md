@@ -5,6 +5,8 @@
 + linear SVM with soft margin
 + non-linear SVM with soft margin
 
+Note that SVM can be extended to regression problems.
+
 #### the difference between perceptron and SVM:
 + perceptron is any separate hyperplane; SVM is the separate hyperplane with the maximum margin, the solution is unique.
 + perceptron is a linear classifer, the SVM can be non-linear using the kernal trick.
