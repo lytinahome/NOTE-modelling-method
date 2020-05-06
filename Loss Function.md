@@ -10,5 +10,9 @@ reference:
 ## Margin Based function
 Margin-based loss functions are particularly useful for binary classification. In contrast to the distance-based losses, these do not care about the difference between true target and prediction. Instead they penalize predictions based on how well they agree with the sign of the target.
 
+#### 0-1 loss function
+#### perceptron loss function
+#### hinge loss function
+
 reference:
 [Margin Based Function in Julia Library](http://juliaml.github.io/LossFunctions.jl/stable/losses/margin/)
