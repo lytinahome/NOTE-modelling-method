@@ -5,4 +5,4 @@ TBD
 
 #### How to make K means scalable?
 + mini batch
-+ triangle ineuqality to reduce the calulation needed.
++ triangle ineuqality to calculate the lower bound in order to do the pre-trimming.
