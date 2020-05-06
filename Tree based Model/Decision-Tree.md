@@ -16,3 +16,9 @@
 + set the maximum depth
 + set minimum leaf sample
 + rely on cross validation
+
+
+#### gini and entropy
+1. Gini’s maximum impurity is 0.5 and maximum purity is 0 
+2. Entropy’s maximum impurity is 1 and maximum purity is 0
+3. Different decision tree algorithms utilize different impurity metrics: CART uses Gini; ID3 and C4.5 use Entropy. This is worth looking into before you use decision trees /random forests in your model.
