@@ -1,5 +1,9 @@
 # Loss function in Regression Problem
 
+## Distance Based function
+#### L1 distance MAE
+#### L2 distance RMSE
+#### Huber distance
 reference:
 [Distance Based Function in Julia Library](http://juliaml.github.io/LossFunctions.jl/stable/losses/distance/)
 
