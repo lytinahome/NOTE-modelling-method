@@ -16,7 +16,8 @@ Note that SVM can be extended to regression problems.
 
 #### the advantage of SVM
 + the solution is only determined by the support vector. so the solution is stable and is immune to the effect of imbalanced data.
-
+#### the disadvantage of SVM
++ not suitable for big data --  this is because the kernal function K(,) is O(n^2).
 
 ## Linear SVM with hard margin
 
