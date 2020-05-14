@@ -86,10 +86,14 @@ TBC
 
 ## Non-linear SVM with soft margin
 #### what is kernal trick?
+TBC 
 
 #### the definitatino of kernal function and mapping function
 Given a kernal function, the choice of mapping function is not unique.
-kernal function should a positive definitive function
+kernal function should a semi positive definitive function
+
+#### Mercer's theorem
+Any semi-positive matirx can be deemed as a kernal function. 
 
 #### Common used kernal functions:
 + polynomial kernal function
